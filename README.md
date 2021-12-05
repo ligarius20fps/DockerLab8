@@ -10,4 +10,8 @@ Uruchomienie kontenera:
 ```
 docker run -it --name test --rm -p 8080:80 fib
 ```
-Aplikacja jest dostepna na localhost:8080
+Aplikacja jest wtedy dostepna na localhost:8080
+Mozna rowniez zastosowac docker compose:
+```
+docker compose up
+```
