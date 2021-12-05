@@ -16,3 +16,7 @@ Można rownież zastosować docker compose:
 ```
 docker compose up
 ```
+Albo tez docker compose ze sledzeniem zmian w kodzie (z wolumenami):
+```
+docker compose -f docker-compose_vol.yml up
+```
