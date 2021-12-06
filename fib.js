@@ -10,5 +10,15 @@ function fib(k)
 {
     if(k<=0)return 0;
     if(k==1)return 1;
-    return fib(k-1) + fib(k-2);
+    var a;
+    var a_1 = 1;
+    var a_2 = 0;
+    var next;
+    for(var i = 1;i<k;i++)
+    {
+        a = a_1 + a_2;
+        a_2 = a_1;
+        a_1 = a;
+    }
+    return a;
 }
